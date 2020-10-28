@@ -16,7 +16,7 @@ const PokemonCard = ({ pokemon }) => {
 
     };
     fetching();
-  }, [state, name]);
+  }, [name]);
 
   return (
     <div>
