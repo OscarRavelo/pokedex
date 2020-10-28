@@ -1,12 +1,12 @@
 import React from "react";
 
-const SearchPokemon = () => {
+const SearchPokemon = ({handler}) => {
     
     
     return(
         
         <form >
-    <input type="text" placeholder="Search"  />
+    <input type="text" placeholder="Search" onChange={handler} />
   
     </form>
 )

@@ -12,10 +12,9 @@ const PokemonCard = ({ pokemon }) => {
       setState(data.sprites["front_default"]);
       setFetching(!fetching);
 
-      console.log("state", data.sprites["front_default"]);
     };
     fetching();
-  }, [state]);
+  }, [state, name]);
 
   return (
     <div>
