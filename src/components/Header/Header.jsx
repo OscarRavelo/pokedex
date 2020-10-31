@@ -1,5 +1,8 @@
 import React from "react";
+import './header.css';
+const Header = () => (<header className="header" >
+    <h1>pokedex</h1>
 
-const Header = () => <header>{"pokedex".toUpperCase()}</header>;
+</header>)
 
 export default Header;

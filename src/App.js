@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./components/Header/Header";
 import SearchPokemon from "./components/SearchPokemon/SearchPokemon";
 import ViewPokemon from "./components/ViewPokemon/ViewPokemon";
+import './App.css';
 
 const App = () => {
   const [state, setState] = useState(null);

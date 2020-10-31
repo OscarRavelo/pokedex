@@ -1,0 +1,28 @@
+.pokemonCard {
+    background-color: aquamarine;
+   width: 250px;
+   height: 150px;
+   margin-bottom: 1rem;
+}
+
+.pokemonCard .body {
+ 
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pokemonCard .body img {
+    width: 50%;
+    
+}
+
+.cardFooter {
+    display: flex;
+    height: 15%;
+}
+
+.cardFooter .pokemonNumber {
+    margin-left: auto;
+}

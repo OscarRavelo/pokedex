@@ -1,0 +1,21 @@
+.SearchPokemon{
+    margin-bottom: 1rem;
+    
+}
+
+.SearchInput{
+    height: 4rem;
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.SearchInput:focus {
+    outline: none;
+    border-bottom: 2px solid #D24343;
+    
+}

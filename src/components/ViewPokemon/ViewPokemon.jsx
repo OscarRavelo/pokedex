@@ -5,7 +5,7 @@ const ViewPokemon = ({ pokemons }) => {
     
       
         {
-          !pokemons.length == 0 ? 
+          pokemons.length !== 0 ? 
           pokemons.map((pokemon, i) => (
             <PokemonCard key={i} pokemon={pokemon} />
           )) : <div>Pokemon not found</div>

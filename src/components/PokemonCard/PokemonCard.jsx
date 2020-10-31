@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Detail from '../Detail/Detail';
-
+import './PokemonCard.css';
 const PokemonCard = ({ pokemon }) => {
   const { name, url } = pokemon;
   const [state, setState] = useState(null);
@@ -22,7 +22,21 @@ const PokemonCard = ({ pokemon }) => {
     <div>
     
       {
-        fetching ? <div>loading...</div> : <a onClick={() => setDetail(!detail)} ><h1>{state.name}</h1><img src={state.sprites["front_default"]} /> </a>
+        fetching ? <div>loading...</div> :
+         <a onClick={() => setDetail(!detail)} >
+         <div className="pokemonCard">
+        <div className="body">
+
+         <img src={state.sprites["front_default"]} /> 
+        </div>
+        <div className="cardFooter" >
+
+           <div><p>{state.name}</p></div>
+           <div className="pokemonNumber"><p>#{state.id}</p></div>
+        </div>
+         </div>
+         
+         </a>
         }
         {
           !detail ? <div></div> : <Detail pokemon={state} />

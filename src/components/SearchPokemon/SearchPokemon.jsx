@@ -1,14 +1,14 @@
 import React from "react";
-
+import './SearchPokemon.css';
 const SearchPokemon = ({handler}) => {
     
     
     return(
         
-        <form >
-    <input type="text" placeholder="Search" onChange={handler} />
+        <div className="SearchPokemon" >
+    <input className="SearchInput" type="text" placeholder="Search" onChange={handler} />
   
-    </form>
+    </div>
 )
 
 }
