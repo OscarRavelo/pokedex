@@ -1,28 +1,35 @@
 .pokemonCard {
-    background-color: aquamarine;
-   width: 250px;
-   height: 150px;
-   margin-bottom: 1rem;
+  width: 250px;
+  height: 150px;
+  -webkit-box-shadow: 7px 6px 13px -4px rgba(0, 0, 0, 0.43);
+  box-shadow: 7px 6px 13px -4px rgba(0, 0, 0, 0.43);
+}
+
+.pokemonCard p {
+    margin: 0px;
 }
 
 .pokemonCard .body {
- 
-    height: 75%;
-    display: flex;
-    justify-content: center;
+  height: 75%;
+  display: flex;
+  justify-content: center;
 }
 
-
 .pokemonCard .body img {
-    width: 50%;
-    
+  width: 50%;
 }
 
 .cardFooter {
-    display: flex;
-    height: 15%;
+  display: flex;
+  height: 15%;
 }
 
-.cardFooter .pokemonNumber {
-    margin-left: auto;
+.pokemonCard .cardFooter .pokemonNumber {
+  margin-left: auto;
+}
+.cardFooter .pokemonNumber, .pokemonName {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.2em;
+
 }

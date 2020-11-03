@@ -1,7 +1,8 @@
 import React from "react";
 import PokemonCard from "../PokemonCard/PokemonCard";
+import './ViewPokemon.css';
 const ViewPokemon = ({ pokemons }) => {
-  return (<div>
+  return (<div className="viewpokemoncontainer">
     
       
         {

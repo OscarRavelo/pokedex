@@ -1,0 +1,34 @@
+.detail__body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.detail__body ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.abilities, .type {
+    padding: .5rem;
+}
+
+.detail__body .abilities {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.detail__body .abilities p {
+    text-transform: uppercase;
+}
+
+.detail__body .type {
+    font-size: .8rem;
+    font-weight: 700;
+}
+.detail__body .type p {
+    text-transform: uppercase;
+}

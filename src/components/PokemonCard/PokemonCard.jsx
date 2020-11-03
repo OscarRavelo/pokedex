@@ -24,23 +24,23 @@ const PokemonCard = ({ pokemon }) => {
       {
         fetching ? <div>loading...</div> :
          <a onClick={() => setDetail(!detail)} >
-         <div className="pokemonCard">
+         {
+          !detail ? <div className="pokemonCard">
         <div className="body">
 
          <img src={state.sprites["front_default"]} /> 
         </div>
         <div className="cardFooter" >
 
-           <div><p>{state.name}</p></div>
+           <div className="pokemonName"><p>{state.name}</p></div>
            <div className="pokemonNumber"><p>#{state.id}</p></div>
         </div>
-         </div>
+         </div> : <Detail pokemon={state} sprite={state.sprites["back_default"]} />
+        }
          
          </a>
         }
-        {
-          !detail ? <div></div> : <Detail pokemon={state} />
-        }
+       
     </div>
   );
 };
