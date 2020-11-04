@@ -1,8 +1,9 @@
 .pokemonCard {
   width: 250px;
   height: 150px;
-  -webkit-box-shadow: 7px 6px 13px -4px rgba(0, 0, 0, 0.43);
-  box-shadow: 7px 6px 13px -4px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.27); 
+box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.27);
+
 }
 
 .pokemonCard p {
@@ -26,10 +27,19 @@
 
 .pokemonCard .cardFooter .pokemonNumber {
   margin-left: auto;
+
 }
 .cardFooter .pokemonNumber, .pokemonName {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     font-size: 1.2em;
 
+}
+
+@media (max-width: 570px){
+  .pokemonCard {
+    width: 350px;
+    height: 250px;
+    margin: 2rem  auto;
+  }
 }

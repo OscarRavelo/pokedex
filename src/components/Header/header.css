@@ -6,7 +6,10 @@
    height: 4rem;
    background-color: #D24343; 
    padding-left: 0.5em;
-   -webkit-box-shadow: 1px 6px 18px -2px #000000; 
-box-shadow: 1px 6px 18px -2px #000000;
+   -webkit-box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.27); 
+   box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.27);
+font-family: 'Roboto', sans-serif;
+color:white;
+
 
 }

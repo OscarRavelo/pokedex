@@ -27,7 +27,7 @@ const Detail = ({pokemon, sprite}) => {
         </div>
         </div>
         <div>
-            <img src={sprite} />
+            <img alt="pokemon_backward" src={sprite} />
         </div>
     </div>
     </div>

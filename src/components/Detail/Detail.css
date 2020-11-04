@@ -5,6 +5,8 @@
     height: 100%;
     align-items: center;
     overflow: hidden;
+    font-family: 'Itim', cursive;
+
 }
 
 .detail__body ul, li {
@@ -23,6 +25,8 @@
 
 .detail__body .abilities p {
     text-transform: uppercase;
+    color: #D24343;
+
 }
 
 .detail__body .type {
@@ -31,4 +35,6 @@
 }
 .detail__body .type p {
     text-transform: uppercase;
+    color: #D24343;
+
 }
